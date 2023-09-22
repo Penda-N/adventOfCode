@@ -1,6 +1,6 @@
 public class part2 {
 
-    public static int countVisibleTrees(int[][] treesMap) {
+    public static int countScenicScores(int[][] treesMap) {
         int rows = treesMap.length;
         int cols = treesMap[0].length;
         int result = 0;
@@ -168,7 +168,7 @@ public class part2 {
                 {0, 0, 2, 0, 2, 3, 3, 2, 3, 4, 4, 3, 1, 0, 2, 2, 4, 2, 3, 1, 1, 5, 2, 3, 0, 0, 0, 1, 4, 0, 1, 5, 0, 5, 0, 6, 1, 6, 0, 5, 2, 2, 0, 0, 4, 6, 3, 5, 2, 2, 2, 5, 5, 6, 2, 0, 0, 2, 5, 1, 6, 6, 3, 5, 5, 1, 4, 4, 4, 5, 5, 1, 2, 3, 5, 2, 5, 0, 4, 4, 0, 2, 2, 3, 2, 4, 2, 0, 1, 0, 4, 1, 4, 0, 1, 1, 0, 2, 1}
         };
 
-        int result = countVisibleTrees(treesMap);
-        System.out.println("Number of visible trees : " + result);
+        int result = countScenicScores(treesMap);
+        System.out.println("Highest scenic score : " + result);
     }
 }
